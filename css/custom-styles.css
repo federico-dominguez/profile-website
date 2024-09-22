@@ -1,0 +1,18 @@
+
+.navbar {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.navbar-brand-firstname {
+    display: block;
+}
+
+.navbar-brand-lastname {
+    color: #82c9c3;
+}
