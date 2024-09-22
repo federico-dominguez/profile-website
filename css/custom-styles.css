@@ -1,3 +1,7 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
 
 .navbar {
     text-transform: uppercase;
@@ -15,4 +19,43 @@
 
 .navbar-brand-lastname {
     color: #82c9c3;
+}
+
+.profile-section {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+.card {
+    width: 30rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card-subtitle {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    text-align: justify;
+}
+
+.btn-primary {
+    background-color: #82c9c3;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #5a8f86;
 }
