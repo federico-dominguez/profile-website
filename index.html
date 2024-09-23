@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Federico Dominguez</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom-styles.css">
 </head>
@@ -23,13 +24,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item  ms-auto">
+                <li class="nav-item">
                     <a class="nav-link" href="#">About me</a>
                 </li>
-                <li class="nav-item  ms-auto">
+                <li class="nav-item">
                     <a class="nav-link" href="#">Projects</a>
                 </li>
-                <li class="nav-item  ms-auto">
+                <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
@@ -39,13 +40,13 @@
 
 <div class="profile-section d-flex justify-content-center align-items-center" id="profile-section">
     <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
-        <img src="lib/card-img-top.jpg" class="card-img-top rounded-circle shadow-sm p-3 mb-5 bg-body-tertiary rounded" alt="card-image-top">
-        <div class="card-body">
+        <img src="lib/card-img-top.jpg" class="card-img-top rounded-circle shadow-sm p-3 mb-5 bg-body-tertiary rounded"
+             alt="Profile Image">
+        <div class="card-body text-center">
             <h5 class="card-title">Federico Dominguez</h5>
             <p class="card-subtitle">Technical Support Specialist @ TATA Consultancy Services | IT Support</p>
-            <p class="card-text"> I am currently working at Tata Consultancy Services, where I have advanced from
-                Support
-                Engineer to Technical Support Specialist. I provide solutions for Microsoft Dynamics 365
+            <p class="card-text">I am currently working at Tata Consultancy Services, where I have advanced from
+                Support Engineer to Technical Support Specialist. I provide solutions for Microsoft Dynamics 365
                 CRM, lead training initiatives, automate processes, and manage escalated incidents to ensure
                 client satisfaction.</p>
             <p class="card-text">
@@ -59,8 +60,8 @@
 
 <section class="experience-section" id="experience-section">
     <article class="experience-article">
-        <div class="article-section">
-            <img src="lib/sales.svg" class="article-img" alt="Sales Icon" />
+        <div class="article-section d-flex align-items-center">
+            <img src="lib/sales.svg" class="article-img" alt="Sales Icon"/>
             <div class="article-body">
                 <h3 class="article-title">Technical Support Specialist</h3>
                 <h4 class="article-subtitle">TATA Consultancy Services</h4>
@@ -74,7 +75,7 @@
                 </p>
             </div>
         </div>
-        <div class="article-section">
+        <div class="article-section d-flex align-items-center">
             <div class="article-body">
                 <h3 class="article-title">Support Engineer</h3>
                 <h4 class="article-subtitle">TATA Consultancy Services</h4>
@@ -86,10 +87,10 @@
                     to the development of tailored solutions to enhance the CRM experience.
                 </p>
             </div>
-            <img src="lib/powerapps.svg" class="article-img" alt="PowerApps Icon" />
+            <img src="lib/powerapps.svg" class="article-img" alt="PowerApps Icon"/>
         </div>
-        <div class="article-section">
-            <img src="lib/tcs.svg" class="article-img" alt="TCS Icon" />
+        <div class="article-section d-flex align-items-center">
+            <img src="lib/tcs.svg" class="article-img" alt="TCS Icon"/>
             <div class="article-body">
                 <h3 class="article-title">IT Trainee</h3>
                 <h4 class="article-subtitle">TATA Consultancy Services</h4>
@@ -101,7 +102,7 @@
                 </p>
             </div>
         </div>
-        <div class="article-section">
+        <div class="article-section d-flex align-items-center">
             <div class="article-body">
                 <h3 class="article-title">Bachelor's Degree, Information Technology</h3>
                 <h4 class="article-subtitle">UTEC - Universidad Tecnológica</h4>
@@ -117,11 +118,34 @@
                     both development and network deployment.
                 </p>
             </div>
-            <img src="lib/utec.svg" class="article-img" alt="UTEC Icon" />
+            <img src="lib/utec.svg" class="article-img" alt="UTEC Icon"/>
         </div>
     </article>
 </section>
 
-<script src="js/bootstrap.min.js"></script>
+<section class="social-section d-flex justify-content-center" id="social-section">
+    <div class="section-item text-center">
+        <i class="fa-brands fa-linkedin fa-6x"></i>
+        <h3 class="section-title">LinkedIn profile</h3>
+        <a class="btn btn-dark" href="https://www.linkedin.com/in/dominguez-federico/">Connect</a>
+    </div>
+    <div class="section-item text-center">
+        <i class="fa-brands fa-github fa-6x"></i>
+        <h3 class="section-title">GitHub portfolio</h3>
+        <a class="btn btn-dark" href="https://github.com/federico-dominguez">Work with me</a>
+    </div>
+</section>
+
+<section class="contact-section d-flex justify-content-center align-items-center" id="contact-section">
+    <form class="contact-form">
+        <h1 class="contact-title">Let's chat!</h1>
+        <input type="email" class="form-control email-form mb-3" placeholder="Email" required/>
+        <input type="text" class="form-control text-form mb-3" placeholder="Name" required/>
+        <textarea class="form-control textarea-form mb-3" placeholder="Hi Federico, we want to work with you!" required></textarea>
+        <button type="submit" class="btn btn-primary section-btn">Send</button>
+    </form>
+</section>
+
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
